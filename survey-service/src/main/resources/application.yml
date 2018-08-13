@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: survey-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+
+# application constants
+service.question.serviceId: question-service

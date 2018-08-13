@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: survey-service
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+# application constants
+service.question.serviceId: question-service
