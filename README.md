@@ -4,7 +4,7 @@ This project is a demonstration of usage os MicroServices with Spring Boot imple
 
 ## Used Technologies
 
-Spring Boot 2 is used as a runner. The only application which uses Spring Boot 1.5.15 is the question-service application. This is done to support swagger with spring-data-rest. As of now, swagger does not support Spring Boot 2 with spring-data-rest. Here is why: *https://github.com/springfox/springfox/issues/2298*
+Spring Boot 2 is used as a runner. The only application which uses Spring Boot 1.5.15 is the question-service application. This is done to support swagger with spring-data-rest. As of now, swagger does not support Spring Boot 2 with spring-data-rest. 
 
 In addition to this, below technologies are used:
 - JPA and H2 in-memory database for storing and retrieving data
